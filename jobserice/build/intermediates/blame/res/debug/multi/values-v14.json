@@ -1,0 +1,28 @@
+[
+    {
+        "outputFile": "C:\\Users\\zwmme\\Documents\\SourceCode\\MyApplication\\jobserice\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 4,
+                    "endColumn": 12,
+                    "endOffset": 201
+                },
+                "from": {
+                    "file": "C:\\Users\\zwmme\\Documents\\SourceCode\\MyApplication\\jobserice\\src\\main\\res\\values-v14\\styles.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 856,
+                        "endLine": 26,
+                        "endColumn": 12,
+                        "endOffset": 1002
+                    }
+                }
+            }
+        ]
+    }
+]
