@@ -10,8 +10,6 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/dialogexample" />
-            <option value="$PROJECT_DIR$/jobserice" />
-            <option value="$PROJECT_DIR$/jobserver" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

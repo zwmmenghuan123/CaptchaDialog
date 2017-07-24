@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="right">
+        <ImageView
+            android:id="@+id/iv_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/roundedrectangle2copy36"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="275dp"
+        android:layout_height="185dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="@drawable/captcha">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:text="@string/captchaDialog_title"
+            android:layout_margin="15dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="@android:color/darker_gray"/>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="#ff9b1a"
+                android:scaleType="center"
+                android:src="@drawable/shape2copy24"/>
+
+        </LinearLayout>
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textColor="#ff0000"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:text="@string/captcha_error"/>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/captcha1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="6.5dp"
+                android:maxLength="1"
+                android:digits="1234567890"
+                android:gravity="center"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:background="@drawable/verifytext"
+                />
+
+            <EditText
+                android:id="@+id/captcha2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="6.5dp"
+                android:maxLength="1"
+                android:digits="1234567890"
+                android:gravity="center"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:background="@drawable/verifytext"
+                />
+
+            <EditText
+                android:id="@+id/captcha3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="6.5dp"
+                android:maxLength="1"
+                android:digits="1234567890"
+                android:gravity="center"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:background="@drawable/verifytext"
+                />
+
+            <EditText
+                android:id="@+id/captcha4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="6.5dp"
+                android:maxLength="1"
+                android:digits="1234567890"
+                android:gravity="center"
+                android:inputType="number"
+                android:cursorVisible="false"
+                android:background="@drawable/verifytext"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

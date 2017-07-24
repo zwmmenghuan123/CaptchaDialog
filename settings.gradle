@@ -1,1 +1,1 @@
-include ':app', ':jobserver', ':dialogexample', 'jobserice'
+include ':app', ':dialogexample'
